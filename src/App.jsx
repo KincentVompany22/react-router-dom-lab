@@ -8,15 +8,11 @@ import MailboxForm from "./components/MailboxForm/MailboxForm.jsx"
 import MailboxList from "./components/MailboxList/MailboxList.jsx"
 import MailboxDetails from "./components/MailboxDetails/MailboxDetails.jsx"
 
-
-
 const App = () => {
 
   const initialMailbox = [
     { _id: 1, boxOwner: "Joel", boxSize: "Large"}
   ] 
-
-  
 
   const [mailboxes, setMailboxes] = useState(initialMailbox)
 
